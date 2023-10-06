@@ -1,0 +1,82 @@
+.team-member-word-container {
+    border-top-width: 4px;
+    border-top-style: solid;
+
+}
+
+.team-member-word {
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.team-member-container {
+    display: flex;
+    border-width: 2px;
+    border-style: solid;
+    height: 250px;
+}
+
+.member-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.name-container {
+    flex: 1;
+    background-color: blue;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.name {
+    font-weight: bold;
+    margin: 0px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.member-info-container {
+    flex: 8;
+    background-color: red;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.member-info {
+    margin: 5px;
+    line-height: 20px;
+}
+
+.first-word {
+    margin-left: 10px;
+}
+
+.member-email-container {
+    flex: 1;
+    background-color: green;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.member-email {
+    margin: 0px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.joe-container {
+    flex: 1;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.lark-container {
+    flex: 1;
+    border-width: 2px;
+    border-style: solid;
+}

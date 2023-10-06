@@ -1,0 +1,27 @@
+body {
+    margin: 0px;
+    background-color: rgb(255, 230, 180);
+}
+
+.summary-container {
+    border-width: 2px;
+    border-style: solid;
+    height: 300px;
+    margin: 8px;
+}
+
+.summary {
+    margin: 8px;
+    font-family: Source Code Pro, Times New Roman;
+}
+
+.main-picture-container {
+    border-width: 2px;
+    border-style: solid;
+    height: 141px;
+}
+
+.company-pic {
+    height: 100%;
+    width: 100%;
+}

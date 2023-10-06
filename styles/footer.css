@@ -1,0 +1,46 @@
+.contact-info-word-container {
+    margin-top: 50px;
+    border-top-width: 4px;
+    border-top-style: solid;
+}
+
+.contact-info-word {
+    margin: 0px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.footer {
+    height: 150px;
+    
+}
+
+.phone-number-container {
+    border-width: 2px;
+    border-style: solid;
+}
+
+.phone-number {
+    padding-left: 20px;
+}
+
+.group-social-media-container {
+    display: flex;
+}
+
+.social-media-container {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.social-media-icon {
+    height: 50%;
+    width: 50%;
+    padding-left: 45px;
+    padding-top: 8px;
+}
+
+.social-media-icon:hover {
+    opacity: 0.7;
+}

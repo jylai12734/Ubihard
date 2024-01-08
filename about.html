@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Home</title>
+    <link rel="stylesheet" href="styles/team.css">
+  <style>
+		header {
+			background: #1f456e;
+			height: 50px;
+		}
+		h1 {
+        text-align: left;
+        color: black;
+        line-height: 100px;
+        margin: 0;
+      }
+
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: monospace;
+			min-height: 100vh; 
+			position: relative;
+      		font-size: 16px; 
+			background-color: lightgray;
+		}
+		
+		article {
+    box-sizing: border-box; /* This ensures that padding and border are included in the element's total width and height */
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin: 10px;
+    background: gray;
+}
+   article2 {
+			padding: 10px;
+			margin: 10px;
+			background: #151e3d;
+		}
+      
+      /* Add your flexbox CSS below here */
+      	section {
+			display: flex;
+			flex-direction: row;
+		}
+		ul { 
+			text-decoration: underline;
+		}
+		
+   		/* navbar */
+		.navbar {
+			display: flex;
+			flex-wrap: wrap;
+			background-color: #1f456e;
+			color: #fff;
+      		border-style: solid;
+      		border-color: #2C3E4C;
+		}
+		
+		.navbar a {
+			color: #fff;
+			text-decoration: none;
+			padding: 10px 20px;
+			display: block;
+			text-align: center;
+			flex-grow: 1;
+			transition: background-color 0.3s ease-in-out;
+		}
+		
+		.navbar a:hover {
+			background-color: #555;
+		}
+		
+		.navbar a:last-child {
+			border-right: none;
+		}  
+   
+ 		/* footer */
+   
+		.footer {
+		background-color: #1f456e;
+		color: #fff;
+		padding: 20px 0;
+		text-align: center;
+		}
+
+		.footer p {
+		margin-bottom: 10px;
+		}
+
+		.footer a {
+		color: #fff;
+		text-decoration: none;
+		margin: 0 5px;
+		}
+
+		.footer a:hover {
+		text-decoration: underline;
+		}
+		/* link to socials */
+		.fa {
+			padding: 10px;
+			font-size: 15px;
+			width: 15px;
+			text-align: center;
+			text-decoration: none;
+			margin: 2px 1px;
+			border-radius: 50%;
+		}
+		
+		.fa:hover {
+			opacity: 0.7;
+		}
+		
+		.fa-linkedin {
+			background: black;
+			color: white;
+		}
+        .fa-twitter {
+			background: black;
+			color: white;
+		}
+        .fa-discord {
+			background: black;
+			color: white;
+		}
+	</style>
+</head>
+
+
+<body>
+	<nav class="navbar">
+	
+		<a href="https://ubihardcorp.com/index.html">Home</a>
+		
+    	<a href="https://ubihardcorp.com/about.html">About</a>	
+
+	<div class="topnav-left">
+        <a href="https://www.linkedin.com/company/ubihardcorp/about/" class="fa fa-linkedin"></a>
+      </div>
+
+	</nav>
+  
+ <h1><left><ul>About Us</ul></left></h1>
+ <section>
+	<article>
+		<img src="pictures/company-pic.png" alt="picture" style="max-width: 100%;" />
+	</article>
+
+</section>
+
+<section class="team-member-word-container">
+    <p class="team-member-word">
+        Team Members
+    </p>
+</section>
+<section class="team-member-container">
+    <!-- Justin's Info Section -->
+    <div class="member-container">
+        <div class="name-container">
+            <p class="name">
+                Justin Lai
+            </p>
+        </div>
+        <div class="member-info-container">
+            <p class="member-info">
+                <!-- Justin's info -->
+                <span class="first-word">I</span> am a CS student from Stevens Institute of Technology. My interests include app development and embedded programming. Within the business, I am the leader, so I am responsible for managing the team and overseeing the projects. 
+            </p>
+        </div>
+        <div class="member-email-container">
+            <p class="member-email">
+                jylai12734@gmail.com
+            </p>
+        </div>
+    </div>
+    <!-- Joe's Info Section -->
+    <div class="member-container">
+        <div class="name-container">
+            <p class="name">
+                Joe Phan
+            </p>
+        </div>
+        <div class="member-info-container">
+            <p class="member-info">
+                <!-- Joe's Info -->
+                <span class="first-word">Here</span> are my skills: graphic designer and using engineering to ensure smooth performance and compatibility; team player for providing support with logistics and innovating ideas; and handles the public affairs and frequently asked questions.
+            </p>
+        </div>
+        <div class="member-email-container">
+            <p class="member-email">
+                joe.phan76@gmail.com
+            </p>
+        </div>
+    </div>
+    <!-- Lark's Info Section -->
+    <div class="member-container">
+        <div class="name-container">
+            <p class="name">
+                Lark Bancairen
+            </p>
+        </div>
+        <div class="member-info-container">
+            <p class="member-info">
+                <!-- Lark's info -->
+                <span class="first-word">I</span> am a self-starter with experiences in multiple coding environments and languages. I am confident in my orginization and communucation skills in regards to computer programming. My area of experstise are software development.   				
+            </p>
+        </div>
+        <div class="member-email-container">
+            <p class="member-email">
+                lbancairen@gmail.com
+            </p>
+        </div>
+    </div>
+</section>
+
+<h1><ul>Contact Us</ul></h1>
+ <section>
+	<article>
+	  <h2>How to reach out to me:</h2>
+     
+<p>Got questions or need to report an issue with the website? We've got you.</p>
+     <h2>Contact info</h2>
+	  <p>
+Phone number: (862)-296-6223
+</p>
+<p></p>
+Email: ubihardcorp.comm@gmail.com
+<p>Linked.in:   <a href="https://www.linkedin.com/company/ubihardcorp/about/" class="fa fa-linkedin"></a>
+</p>
+<p>Twitter:   <a href="https://twitter.com/UbihardCorp" class="fa fa-twitter"></a>
+</p>
+<p>Discord:   <a href="https://discord.gg/W7qhUZrX4Q" class="fa fa-discord"></a>
+</p>
+
+	  </p>   
+	</article>
+</section>    
+
+<footer class="footer">
+    <p>&copy; Copyright 2023, Property of UbihardCorp. All rights reserved.</p>
+    <a href="https://ubihardcorp.com/index.html">Home</a> |<a href="hhttps://ubihardcorp.com/about.html">About</a> |<a href="hhttps://ubihardcorp.com/privacy.html">Privacy</a>
+
+  </footer>
+	
+</body>
+
+
+</html>
+

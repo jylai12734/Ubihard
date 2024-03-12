@@ -7,7 +7,8 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Source+Code+Pro:wght@400;700&display=swap" rel="stylesheet">
 	<title>Home</title>
-
+    <link rel="stylesheet" href="styles/team.css">
+	<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
   <style>
 		header {
 			background: #1f456e;
@@ -25,20 +26,23 @@
 			padding: 0;
 			font-family: 'Black Ops One';
 			min-height: 100vh; 
-			position: relative; 
+			position: relative;
+      		font-size: 16px; 
 			background-color: lightgray;
 		}
 		
 		article {
+    box-sizing: border-box; /* This ensures that padding and border are included in the element's total width and height */
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin: 10px;
+    background: gray;
+}
+   article2 {
 			padding: 10px;
 			margin: 10px;
-			background: gray;
-			font-size: 18;
-		}
-		article2 {
-			padding: 5px;
-			margin: 5px;
-			background: darkgray;
+			background: #151e3d;
 		}
       
       /* Add your flexbox CSS below here */
@@ -48,9 +52,7 @@
 		}
 		ul { 
 			text-decoration: underline;
-			text-decoration: bold;
 		}
-		
 		
    		/* navbar */
 		.navbar {
@@ -121,6 +123,27 @@
 			background: black;
 			color: white;
 		}
+        .fa-twitter {
+			background: black;
+			color: white;
+		}
+
+		.fa-discord {
+			background: black;
+			border-radius: 50%;
+			height: 35px;
+			width: 35px;
+			border: solid;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.icon {
+			height: 20px;
+			width: 20px;
+		}
+    
 		.title {
       text-align: center;
     }
@@ -133,7 +156,7 @@
 	
 		<a href="https://ubihardcorp.com/index.html">Home</a>
 
-		<a href="https://ubihardcorp.com/games.html">Games</a>
+        <a href="https://ubihardcorp.com/games.html">Games</a>
 		
     	<a href="https://ubihardcorp.com/about.html">About</a>	
 
@@ -143,17 +166,15 @@
 
 	</nav>
   
- <h1 class="title"><left><ul>Ubihardcorp</ul></left></h1>
+ <h1 class="title"><left><ul>All Games</ul></left></h1>
  <section>
 	<article>
-	  <h2>Introduction</h2>
-
-	  <p>We go hard at Ubihardcorp! The company hopes to develop games on mobile devices for all to enjoy. These apps may range from educational games to games of pure entertainment but one thing is common for all of them: they will challenge you to the core since they be hard! As of right now, the company consists of three members with years of gaming and software development experience. Therefore, trust us when it comes to creating hard games. Once you play our hardcore games, one can say, "Ubihardcorp!" 
-	  </p>
+		
 	</article>
-	
 
 </section>
+
+ 
 
 <footer class="footer">
     <p>&copy; Copyright 2024, Property of UbihardCorp. All rights reserved.</p>

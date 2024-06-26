@@ -167,27 +167,45 @@
 	</nav>
   
  <h1 class="title"><left><ul>All Games</ul></left></h1>
- <section>
-	<article>
+  <section>
+    <article>
         <style>
+            .game-link-container {
+                display: flex;
+                align-items: center;
+                margin-bottom: 20px; /* Add space between different game sections */
+            }
             .game-link {
                 display: flex;
                 align-items: center;
+                margin-right: 20px; /* Space between the link and the description */
             }
             .game-icon {
                 width: 100px;
                 height: 100px;
                 margin-right: 10px; /* Adjust as needed */
             }
+            .description {
+                max-width: 300px; /* Adjust as needed */
+            }
         </style>
         
-        <a href="https://play.google.com/store/apps/details?id=com.ubihardcorp.quickarithmetic" class="game-link">
-            <img src="pictures/QA_icon.png" alt="Your Game Icon" class="game-icon">
-            <span>Quick Arithmetic</span>
-        </a>
-        
-       </article>
+        <div class="game-link-container">
+            <a href="https://play.google.com/store/apps/details?id=com.ubihardcorp.quickarithmetic" class="game-link">
+                <img src="pictures/QA_icon.png" alt="Your Game Icon" class="game-icon">
+                <span>Quick Arithmetic</span>
+            </a>
+            <p class="description">This is a fun and challenging arithmetic game that helps improve your math skills.</p>
+        </div>
 
+        <div class="game-link-container">
+            <a href="https://play.google.com/store/apps/details?id=com.ubihardcorp.dragonboard" class="game-link">
+                <img src="pictures/dbds.png" alt="Your Game Icon" class="game-icon">
+                <span>Dragonboard: Dart Scorekeeper!</span>
+            </a>
+            <p class="description">Experience the wrath of Dragneal!</p>
+        </div>
+    </article>
 </section>
 
  

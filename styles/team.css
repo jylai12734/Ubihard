@@ -15,6 +15,7 @@
     border-width: 2px;
     border-style: solid;
     height: 250px;
+    overflow: auto;
 }
 
 .member-container {

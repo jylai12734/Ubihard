@@ -6,7 +6,6 @@
 
 .team-member-word {
     font-size: 25px;
-    text-align: center;
     font-weight: bold;
     margin: 0px;
 }
@@ -38,6 +37,7 @@
     margin: 0px;
     text-align: center;
     line-height: 20px;
+    color: rgb(255,255,0)
 }
 
 .member-info-container {
@@ -58,7 +58,7 @@
 
 .member-email-container {
     flex: 1;
-    background-color: green;
+    background-color: rgb(0,255,0);
     border-width: 2px;
     border-style: solid;
 }

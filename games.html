@@ -174,12 +174,13 @@
                 display: flex;
                 align-items: center;
                 margin-bottom: 20px; /* Space between different game sections */
-				background-color: darkgrey;
+								background-color: darkgrey;
             }
             .game-link {
                 display: flex;
                 align-items: center;
                 margin-right: 2%; /* Space between the link and the description */
+								flex: 2;
             }
             .game-icon {
                 width: 100px;
@@ -187,7 +188,7 @@
                 margin-right: 10px; /* Adjust as needed */
             }
             .description {
-                max-width: 300px; /* Adjust as needed */
+							flex: 8
             }
         </style>
         
@@ -196,7 +197,7 @@
                 <img src="pictures/QA_icon.png" alt="Your Game Icon" class="game-icon">
                 <span>Quick Arithmetic</span>
             </a>
-            <p class="description">This is a fun and challenging arithmetic game that helps improve your math skills.</p>
+            <p class="description">This game is probably too hard for you! It's okay, we are in the business of creating hard games. Quick Arithmetic is a fun and challenging arithmetic game that helps improve your math skills. If you are good enough, you might just unlock impossible mode.</p>
         </div>
 
         <div class="game-link-container">
@@ -204,8 +205,16 @@
                 <img src="pictures/dbds.png" alt="Your Game Icon" class="game-icon">
                 <span>Dragonboard</span>
             </a>
-            <p class="description">Experience the wrath of Dragneal!</p>
+            <p class="description">Experience the wrath of Dragneal! Dragonboard is an app to keep score of a dartboard game with some added comic relief. This app is helpful in scorekeeping if you are bad at math. Speaking of being bad at math, you should check out 'Quick Arithmetic'...</p>
         </div>
+
+				<div class="game-link-container">
+					<a href="https://play.google.com/store/apps/details?id=com.randonater" class="game-link">
+							<img src="pictures/RandonaterIcon.webp" alt="Your Game Icon" class="game-icon">
+							<span>Randonater</span>
+					</a>
+					<p class="description">This is the one and only randomizer app you will ever need! Delete every other randomizer app you may have and make room for this one! The app specializes in randomizing teams but can be used for any general randomizing tasks. Let's go!!!</p>
+			</div>
     </article>
 </section>
 
